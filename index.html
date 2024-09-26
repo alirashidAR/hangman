@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLARIS Game Scores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hangman Leaderboard</h1>
+    <div id="prizes">
+        <div class="prize second">
+            <span class="team-info">
+                <span id="second-team" class="team-name"></span><br>
+                <span class="team-score" id="second-score">Score: </span>
+            </span>
+        </div>
+        <div class="prize first">
+            <span class="team-info">
+                <span id="first-team" class="team-name"></span><br>
+                <span class="team-score" id="first-score">Score: </span>
+            </span>
+        </div>
+        <div class="prize third">
+            <span class="team-info">
+                <span id="third-team" class="team-name"></span><br>
+                <span class="team-score" id="third-score">Score: </span>
+            </span>
+        </div>
+    </div>
+    <div id="scoreBoard">
+        <div class="scoreboard-header">
+            <span>Place</span>
+            <span>Team Name</span>
+            <span>Score</span>
+        </div>
+        <!-- Dynamic team entries will go here -->
+    </div>
+    <div id="errorMessage"></div>
+    <script src="script.js"></script>
+</body>
+</html>
